@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.admin', ['ngRoute'])
+angular.module('myApp.admins_contoller', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/views/admin', {
