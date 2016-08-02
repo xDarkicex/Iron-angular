@@ -10,5 +10,5 @@ angular.module('myApp', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/homes/index'});
+  $routeProvider.otherwise({redirectTo: '/'});
 }]);
