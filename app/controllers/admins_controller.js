@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myApp.admins_contoller', ['ngRoute'])
+angular.module('myApp.admins_controller', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/views/admin', {
-    templateUrl: 'admin/index.html',
+  $routeProvider.when('/admin', {
+    templateUrl: '../../views/admins/index.html',
     controller: 'adminCtrl'
   });
 }])
